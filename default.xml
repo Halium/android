@@ -2,8 +2,8 @@
 <manifest>
 
   <remote name="phablet"
-	fetch="http://code-review.phablet.ubuntu.com"
-	review="http://code-review.phablet.ubuntu.com"
+	fetch="https://code-review.phablet.ubuntu.com"
+	review="https://code-review.phablet.ubuntu.com"
 	revision="refs/tags/android-5.1.1_r5" />
 
   <remote  name="aosp"
@@ -12,20 +12,20 @@
            revision="refs/tags/android-5.1.1_r26" />
 
   <remote name="cm"
-	fetch="http://github.com/CyanogenMod"
+	fetch="https://github.com/CyanogenMod"
 	revision="refs/heads/cm-12.1" />
 
   <remote name="ubp"
-	fetch="http://github.com"
+	fetch="https://github.com"
 	review="http://review.ubports.com"
 	revision="refs/heads/ubp-5.1" />
 
   <remote name="halium"
-	fetch="http://github.com"
+	fetch="https://github.com"
 	revision="refs/heads/halium-5.1" />
 
   <remote name="ab2ut"
-	fetch="http://github.com/ab2ut"
+	fetch="https://github.com/ab2ut"
 	revision="refs/heads/ubp-5.1" />
 
   <default remote="phablet"
