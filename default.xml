@@ -6,17 +6,17 @@
            revision="refs/tags/android-7.1.1_r25" />
 
   <remote name="los"
-	fetch="http://github.com/LineageOS"
+	fetch="https://github.com/LineageOS"
 	revision="refs/heads/cm-14.1" />
 
   <!-- Uses ubports gerrit server since halium does not have one yet -->
   <remote name="hal"
-	fetch="http://github.com"
+	fetch="https://github.com"
 	review="http://review.ubports.com"
 	revision="refs/heads/halium-7.1" />
 
   <remote name="them"
-	fetch="http://github.com/TheMuppets"
+	fetch="https://github.com/TheMuppets"
 	revision="refs/heads/cm-14.1" />
 
   <default remote="aosp"
