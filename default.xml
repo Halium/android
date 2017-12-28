@@ -37,6 +37,9 @@
   <project path="development" name="android_development" remote="los" />
 
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom" remote="los" />
+  <project path="device/qcom/common" name="android_device_qcom_common" groups="qcom" remote="los" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" groups="qcom" remote="los" />
   <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="los" />
   <project path="external/busybox" name="Halium/android_external_busybox" groups="pdk" remote="hal" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
@@ -51,6 +54,7 @@
   <project path="external/fec" name="platform/external/fec" groups="pdk" remote="aosp" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/aac" name="android_external_aac" remote="los" groups="pdk" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/bzip2" name="android_external_bzip2" remote="los" groups="pdk" />
   <project path="external/compiler-rt" name="Halium/android_external_compiler-rt" remote="hal" groups="pdk" />
@@ -217,6 +221,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="los" />
   <project path="system/core" name="Halium/android_system_core" groups="pdk" remote="hal" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="los" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
