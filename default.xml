@@ -192,7 +192,7 @@
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8916" remote="los"  />
   <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8937" remote="los"  />
   <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8952" remote="los"  />
-  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8960" remote="los"  />
+  <project path="hardware/qcom/media-caf/msm8960" name="Halium/android_hardware_qcom_media" groups="qcom" revision="halium-7.1-caf-8960" remote="hal"  />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8974" remote="los"  />
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" remote="los"  />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" remote="los"  />
