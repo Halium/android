@@ -38,7 +38,9 @@
 
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
   <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="los" />
+  <project path="external/bson" name="android_external_bson" remote="los" />
   <project path="external/busybox" name="Halium/android_external_busybox" groups="pdk" remote="hal" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
@@ -66,6 +68,7 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
   <project path="external/iptables" name="android_external_iptables" groups="pdk" remote="los" /> 
+  <project path="external/iproute2" name="android_external_iproute2" groups="pdk" remote="los" />  
   <project path="external/jemalloc" name="android_external_jemalloc" remote="los" groups="pdk,flo" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" /> -->
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
