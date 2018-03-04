@@ -40,6 +40,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom" remote="los" />
   <project path="device/qcom/common" name="android_device_qcom_common" groups="qcom" remote="los" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" groups="qcom" remote="los" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom" remote="los" />
   <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="los" />
   <project path="external/bson" name="android_external_bson" remote="los" />
   <project path="external/busybox" name="Halium/android_external_busybox" groups="pdk" remote="hal" />
