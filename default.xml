@@ -78,7 +78,7 @@
     <project path="external/jsmn" name="aosp/platform/external/jsmn" groups="pdk" />
     <project path="external/jsoncpp" name="aosp/platform/external/jsoncpp" groups="pdk-cw-fs" />
     <project path="external/kernel-headers" name="aosp/platform/external/kernel-headers" groups="pdk-cw-fs" />
-    <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="refs/heads/cm-12.0"/>
+    <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="refs/heads/cm-12.0" />
     <project path="external/libcap-ng" name="aosp/platform/external/libcap-ng" />
     <project path="external/libcxx" name="ubports/android_external_libcxx" remote="ubp" groups="pdk" />
     <project path="external/libcxxabi" name="aosp/platform/external/libcxxabi" groups="pdk" />
@@ -94,7 +94,7 @@
     <project path="external/libsepol" name="android_external_libsepol" groups="pdk" remote="cm" />
     <project path="external/libunwind" name="aosp/platform/external/libunwind" groups="pdk" />
     <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="cm" />
-    <project path="external/libxml2" name="android_external_libxml2" groups="pdk" remote="cm"/>
+    <project path="external/libxml2" name="android_external_libxml2" groups="pdk" remote="cm" />
     <project path="external/lz4" name="android_external_lz4" remote="cm" />
     <project path="external/lzma" name="android_external_lzma" remote="cm" />
     <project path="external/mdnsresponder" name="aosp/platform/external/mdnsresponder" groups="pdk" />
