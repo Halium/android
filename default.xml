@@ -217,6 +217,7 @@
 
     <project path="halium/devices" name="Halium/halium-devices" remote="halium" />
     <project path="halium/hybris-boot" name="Halium/hybris-boot" revision="refs/heads/master" remote="halium" />
+    <project path="halium/halium-boot" name="Halium/halium-boot" revision="refs/heads/master" remote="halium" />
     <project path="halium/libhybris" name="Halium/libhybris" revision="refs/heads/master" remote="halium" />
     <project path="halium/prebuilt-initrd" name="Halium/prebuilt-initrd" revision="refs/heads/master" remote="ubp" />
 </manifest>
