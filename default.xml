@@ -132,6 +132,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" remote="aosp" />
+  <project path="external/libcurl" name="platform/external/curl" groups="pdk" remote="aosp" />
 
   <project path="frameworks/av" name="Halium/android_frameworks_av" groups="pdk" remote="hal" />
   <project path="frameworks/base" name="Halium/android_frameworks_base" groups="pdk-cw-fs" remote="hal" />
