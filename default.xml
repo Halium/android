@@ -32,7 +32,8 @@
             revision="refs/heads/ubp-5.1" />
 
     <default remote="phablet"
-             sync-j="6" />
+             sync-j="8"
+             sync-c="true" />
 
     <project path="build" name="halium/android_build" groups="pdk,tradefed" remote="halium" >
         <copyfile src="core/root.mk" dest="Makefile" />
