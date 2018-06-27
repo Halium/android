@@ -20,7 +20,8 @@
 	revision="refs/heads/cm-14.1" />
 
   <default remote="aosp"
-           sync-j="6" />
+           sync-j="8"
+           sync-c="true" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
 
