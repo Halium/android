@@ -25,6 +25,10 @@
 
     <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
 
+    <project path="bionic" name="Halium/android_bionic" groups="pdk" remote="hal" />
+
+    <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="los" /> 
+
     <project path="build" name="Halium/android_build" groups="pdk,tradefed" remote="hal" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
@@ -34,112 +38,111 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="bionic" name="Halium/android_bionic" groups="pdk" remote="hal" />
+
     <project path="development" name="android_development" remote="los" />
 
     <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom" remote="los" />
     <project path="device/qcom/common" name="android_device_qcom_common" groups="qcom" remote="los" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" groups="qcom" remote="los" />
-    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom" remote="los" />
-    <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="los" />
-    <project path="external/bson" name="android_external_bson" remote="los" />
-    <project path="external/busybox" name="Halium/android_external_busybox" groups="pdk" remote="hal" />
-    <project path="external/connectivity" name="android_external_connectivity" remote="los" />
-    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
-    <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
-    <project path="external/exfat" name="android_external_exfat" remote="los" />
-    <project path="external/libtar" name="android_external_libtar" remote="los" />
-    <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
-    <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" />
-    <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
-    <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="pdk" remote="aosp" />
-    <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
-    <project path="external/fec" name="platform/external/fec" groups="pdk" remote="aosp" />
-    <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
+
     <project path="external/aac" name="android_external_aac" remote="los" groups="pdk" />
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+    <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="los" />
     <project path="external/bison" name="platform/external/bison" groups="pdk" />
+    <project path="external/bson" name="android_external_bson" remote="los" />
+    <project path="external/busybox" name="Halium/android_external_busybox" groups="pdk" remote="hal" />
     <project path="external/bzip2" name="android_external_bzip2" remote="los" groups="pdk" />
+    <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
     <project path="external/compiler-rt" name="Halium/android_external_compiler-rt" remote="hal" groups="pdk" />
+    <project path="external/connectivity" name="android_external_connectivity" remote="los" />
+    <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" remote="aosp" />
+    <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" remote="aosp" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="los" />
+    <project path="external/exfat" name="android_external_exfat" remote="los" />
     <project path="external/expat" name="platform/external/expat" groups="pdk" />
     <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="los" />
+    <project path="external/fec" name="platform/external/fec" groups="pdk" remote="aosp" />
     <project path="external/flac" name="android_external_flac" groups="pdk" remote="los" />
     <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
     <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs" remote="los" />
     <project path="external/fuse" name="android_external_fuse" remote="los" />
     <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs" />
+    <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
     <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
     <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs" />
     <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
-    <project path="external/iptables" name="android_external_iptables" groups="pdk" remote="los" /> 
     <project path="external/iproute2" name="android_external_iproute2" groups="pdk" remote="los" />  
+    <project path="external/iptables" name="android_external_iptables" groups="pdk" remote="los" /> 
     <project path="external/jemalloc" name="android_external_jemalloc" remote="los" groups="pdk,flo" />
     <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" revision="refs/tags/android-7.1.2_r33" /> -->
     <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
     <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
-    <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
     <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
+    <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
+    <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />    
     <project path="external/libcap-ng" name="platform/external/libcap-ng" />
     <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
     <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
-    <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
-    <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="los" />
+    <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
     <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
+    <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
     <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
+    <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="los" />
+    <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="los" />
     <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
     <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
     <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
+    <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" />
+    <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
     <project path="external/libselinux" name="android_external_libselinux" remote="los" />
+    <project path="external/libtar" name="android_external_libtar" remote="los" />
     <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
     <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />
     <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
     <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
-    <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="los" />
-    <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="los" />
     <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" remote="aosp" />
-    <project path="external/piex" name="platform/external/piex" groups="pdk" remote="aosp" />
-    <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" remote="aosp" />
+    <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
     <project path="external/lz4" name="platform/external/lz4" />
     <project path="external/lzma" name="android_external_lzma" remote="los" />
-    <project path="external/pigz" name="android_external_pigz" remote="los" />
-    <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
-    <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" remote="aosp" />
-    <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" />
     <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
+    <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" />
     <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
+    <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="pdk" remote="aosp" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
     <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
+    <project path="external/piex" name="platform/external/piex" groups="pdk" remote="aosp" />
+    <project path="external/pigz" name="android_external_pigz" remote="los" />
     <project path="external/protobuf" name="Halium/android_external_protobuf" remote="hal" groups="pdk" />
     <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
     <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
     <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
     <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs" />
     <project path="external/skia" name="Halium/android_external_skia" groups="pdk-cw-fs" remote="hal" />
+    <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
     <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
     <project path="external/speex" name="platform/external/speex" groups="pdk" />
     <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+    <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
+    <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="los" />
     <project path="external/stlport" name="android_external_stlport" remote="los" />
     <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
-    <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
     <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="los" />
     <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
+    <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
     <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
+    <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" remote="aosp" />
     <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs" />
     <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
     <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="los" />
     <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="los" />
-    <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
     <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
-    <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
-    <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" remote="aosp" />
 
     <project path="frameworks/av" name="Halium/android_frameworks_av" groups="pdk" remote="hal" />
     <project path="frameworks/base" name="Halium/android_frameworks_base" groups="pdk-cw-fs" remote="hal" />
+    <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
+    <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
     <project path="frameworks/native" name="Halium/android_frameworks_native" groups="pdk" remote="hal" />
     <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
-    <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
-    <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
 
     <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" />
     <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
@@ -164,19 +167,6 @@
     <project path="hardware/libhardware_legacy" name="Halium/android_hardware_libhardware_legacy" groups="pdk" remote="hal" />
     <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
     <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
-    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
-    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="los" />
-    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="los" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
-    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="los" />
-    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="los" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="los" />
-    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" />
-    <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
-    <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
-    <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
-    <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" groups="omap4" remote="los" />
-
     <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" remote="los" />
     <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8916" remote="los" />
     <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8937" remote="los" />
@@ -186,7 +176,11 @@
     <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" remote="los" />
     <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" remote="los" />
     <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8998" remote="los" />
+    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="los" />
     <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" remote="los" />
+    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="los" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
     <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8084" remote="los" />
     <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8916" remote="los" />
     <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8937" remote="los" />
@@ -197,6 +191,9 @@
     <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" remote="los" />
     <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8998" remote="los" />
     <project path="hardware/qcom/fm" name="Halium/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="hal" />
+    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="los" />
+    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="los" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="los" />
     <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8084" remote="los" />
     <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8916" remote="los" />
     <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8937" remote="los" />
@@ -206,11 +203,18 @@
     <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" remote="los" />
     <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" remote="los" />
     <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8998" remote="los" />
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" />
     <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="los" />
+    <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
     <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="cm-14.1-caf" remote="los" />
+    <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
+    <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
+    <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" groups="omap4" remote="los" />
+
+    <project path="libcore" name="Halium/android_libcore" groups="pdk" remote="hal" />
 
     <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
-    <project path="libcore" name="Halium/android_libcore" groups="pdk" remote="hal" />
+
     <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="aosp" />
     <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="los" clone-depth="1" />
@@ -226,7 +230,9 @@
     <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
     <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="refs/tags/android-7.1.2_r33" />
     <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
+
     <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
+
     <project path="system/core" name="Halium/android_system_core" groups="pdk" remote="hal" />
     <project path="system/extras" name="android_system_extras" groups="pdk" remote="los" />
     <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
@@ -235,18 +241,19 @@
     <project path="system/netd" name="Halium/android_system_netd" groups="pdk" remote="hal" />
     <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="los" />
     <project path="system/security" name="Halium/android_system_security" groups="pdk" remote="hal" />
-    <project path="system/vold" name="android_system_vold" groups="pdk" remote="los" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="los" groups="pdk" />
+    <project path="system/vold" name="android_system_vold" groups="pdk" remote="los" />
     <project path="system/tools/aidl" name="Halium/android_system_tools_aidl" remote="hal" groups="pdk" />
+
     <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
 
     <project path="vendor/cm" name="Halium/android_vendor_cm" remote="hal" />
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" groups="qcom" remote="los" />
+    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom" remote="los" />
 
-    <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="los" /> 
-
-    <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/halium-7.1" />
-    <project path="halium/hybris-boot" name="Halium/hybris-boot" remote="hal" revision="refs/heads/master" />
     <project path="halium/audioflingerglue" name="Halium/audioflingerglue" remote="hal" />
-    <project path="halium/halium-boot" name="Halium/halium-boot" remote="hal" revision="master" />
     <project path="halium/devices" name="Halium/halium-devices" remote="hal" />
+    <project path="halium/halium-boot" name="Halium/halium-boot" remote="hal" revision="master" />
+    <project path="halium/hybris-boot" name="Halium/hybris-boot" remote="hal" revision="refs/heads/master" />
+    <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/halium-7.1" />
 </manifest>
