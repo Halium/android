@@ -202,7 +202,7 @@
 
     <project path="sdk" name="aosp_platform_sdk" groups="pdk-cw-fs" revision="refs/heads/personal/w-ondra/phablet-5.1.1_r5" />
 
-    <project path="system/core" name="ubports/android_system_core" groups="pdk" remote="ubp" />
+    <project path="system/core" name="Halium/android_system_core" groups="pdk" remote="halium" />
     <project path="system/extras" name="ubports/android_system_extras" groups="pdk" remote="ubp" />
     <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" />
     <project path="system/media" name="android_system_media" groups="pdk" remote="cm" />
