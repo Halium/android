@@ -174,7 +174,7 @@
     <project path="hardware/ti/omap4-aah" name="aosp_platform_hardware_ti_omap4-aah" groups="omap4-aah" />
     <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" groups="omap4" remote="cm" />
 
-    <project path="libnativehelper" name="android_libnativehelper" groups="pdk" remote="cm" />
+    <project path="libnativehelper" name="halium/android_libnativehelper" groups="pdk" remote="halium" revision="cm-12.1" />
 
     <project path="prebuilts/clang/linux-x86/3.1" name="aosp_platform_prebuilts_clang_linux-x86_3.1" groups="pdk,linux" />
     <project path="prebuilts/clang/linux-x86/3.2" name="aosp_platform_prebuilts_clang_linux-x86_3.2" groups="pdk,linux" />
@@ -202,7 +202,7 @@
 
     <project path="sdk" name="aosp_platform_sdk" groups="pdk-cw-fs" revision="refs/heads/personal/w-ondra/phablet-5.1.1_r5" />
 
-    <project path="system/core" name="Halium/android_system_core" groups="pdk" remote="halium" />
+    <project path="system/core" name="Halium/android_system_core" groups="pdk" remote="halium" revision="ubp-5.1" />
     <project path="system/extras" name="ubports/android_system_extras" groups="pdk" remote="ubp" />
     <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" />
     <project path="system/media" name="android_system_media" groups="pdk" remote="cm" />
