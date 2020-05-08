@@ -19,6 +19,10 @@
             fetch="https://github.com/TheMuppets"
             revision="refs/heads/cm-14.1" />
 
+    <remote name="them2"
+            fetch="https://gitlab.com/The-Muppets"
+            revision="refs/heads/cm-14.1" />
+    
     <remote name="sailfishos"
             fetch="https://github.com/sailfishos" />
 
