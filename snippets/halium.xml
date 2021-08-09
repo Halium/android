@@ -8,6 +8,7 @@
   </project>
   <project path="vendor/halium/droidmedia" name="Halium/droidmedia" revision="halium-10.0" />
   <project path="vendor/halium/libhybris" name="Halium/libhybris" revision="halium-10.0" />
+  <project path="vendor/halium/manifest" name="Halium/android" revision="halium-10.0" />
   <project path="vendor/halium/platform-api" name="ubports/platform-api" revision="xenial_-_android9" />
   <project path="vendor/halium/stub_netd" name="Halium/stub_netd" revision="halium-9.0" />
 </manifest>
