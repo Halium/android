@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Halium additions -->
+  <project path="halium/manifest" name="Halium/android" revision="halium-10.0" />
   <project path="hybris-patches" name="Halium/hybris-patches" revision="halium-10.0" />
   <project path="vendor/halium/config" name="Halium/android_vendor_halium_config" revision="halium-10.0" />
   <project path="vendor/halium/devices" name="Halium/halium-devices" revision="halium-10.0">
