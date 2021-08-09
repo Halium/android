@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="bootable/recovery" name="ubports/halium_bootable_recovery" revision="halium-10.0" />
+  <project path="external/gpg" name="ubports/android_external_gpg" revision="halium-10.0" />
+</manifest>
