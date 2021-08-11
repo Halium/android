@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
   <!-- Halium additions -->
   <project path="hybris-patches" name="Halium/hybris-patches" revision="halium-10.0" />
   <project path="vendor/halium/config" name="Halium/android_vendor_halium_config" revision="halium-10.0" />
   <project path="vendor/halium/devices" name="Halium/halium-devices" revision="halium-10.0">
       <linkfile src="." dest="halium/devices" />
   </project>
+  <project path="vendor/halium/biometryd" name="ubports/core/biometryd" revision="ubports/xenial_-_android9" remote="gitlab" />
   <project path="vendor/halium/droidmedia" name="Halium/droidmedia" revision="halium-10.0" />
   <project path="vendor/halium/libhybris" name="Halium/libhybris" revision="halium-10.0" />
   <project path="vendor/halium/manifest" name="Halium/android" revision="halium-10.0" />
