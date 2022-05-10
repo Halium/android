@@ -34,7 +34,7 @@
 
     <project path="bionic" name="Halium/android_bionic" groups="pdk" remote="hal" />
 
-    <project path="bootable/recovery" name="ubports/halium_bootable_recovery" groups="pdk" revision="halium-7.1" />
+    <project path="bootable/recovery" name="ubports/halium_bootable_recovery" groups="pdk" remote="hal" />
 
     <project path="build" name="Halium/android_build" groups="pdk,tradefed" remote="hal" >
         <copyfile src="core/root.mk" dest="Makefile" />
