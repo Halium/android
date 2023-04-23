@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <!-- Halium additions -->
+  <project path="hybris-patches" name="Halium/hybris-patches" revision="halium-13.0" />
+  <project path="vendor/halium/config" name="Halium/android_vendor_halium_config" revision="halium-13.0" />
+  <project path="vendor/halium/devices" name="Halium/halium-devices" revision="halium-12.0">
+      <linkfile src="." dest="halium/devices" />
+  </project>
+  <project path="vendor/halium/audioflingerglue" name="Halium/audioflingerglue" revision="master" />
+  <project path="vendor/halium/biometryd" name="ubports/development/core/biometryd" revision="main" remote="gitlab" />
+  <project path="vendor/halium/droidmedia" name="sailfishos/droidmedia" revision="android13" />
+  <project path="vendor/halium/hardware" name="Halium/android_vendor_halium_hardware" revision="halium-13.0" />
+  <project path="vendor/halium/libhybris" name="Halium/libhybris" revision="halium-11.0" />
+  <project path="vendor/halium/manifest" name="Halium/android" revision="halium-12.0" />
+  <project path="vendor/halium/platform-api" name="ubports/development/core/platform-api" revision="main" remote="gitlab" />
+  <project path="vendor/halium/selinux_stubs" name="Halium/android_external_selinux_stubs" revision="halium-13.0" />
+  <project path="vendor/halium/stub_netd" name="Halium/stub_netd" revision="halium-11.0" />
+</manifest>
