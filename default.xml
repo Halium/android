@@ -26,7 +26,7 @@
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
   <project path="external/droidmedia" name="sailfishos/droidmedia" revision="4e80b83c04982f09659c7f925f142127727a9b71" />
   <project path="external/audioflingerglue" name="mer-hybris/audioflingerglue" revision="master" />
-  <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" revision="master" />
+  <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" revision="aa4daae08ca5721fd5b7fa0b4a995126e71d570a" />
   <project path="external/gpg" name="ubports/android_external_gpg" revision="halium-9.0"  />
   <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" revision="master" />
   <project path="halium/biometryd" name="ubports/biometryd" revision="xenial_-_edge_-_android8" />
