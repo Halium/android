@@ -2,4 +2,5 @@
 <manifest>
   <project path="bootable/recovery" name="ubports/halium_bootable_recovery" revision="halium-10.0" />
   <project path="external/gpg" name="ubports/android_external_gpg" revision="halium-10.0" />
+  <project path="external/lvm2" name="Halium/lvm2" revision="halium-10.0" />
 </manifest>
