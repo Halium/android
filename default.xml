@@ -273,5 +273,5 @@
     <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/halium-7.1" />
     <project path="halium/platform-api" name="ubports/platform-api" remote="hal" revision="xenial"  />
 
-    <project path="external/libarchive" name="Halium/halium_external_libarchive" revision="refs/heads/halium" />
+    <project path="external/libarchive" name="Halium/halium_external_libarchive" remote="hal" revision="refs/heads/halium" />
 </manifest>
