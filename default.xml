@@ -272,4 +272,6 @@
     <project path="halium/hybris-boot" name="Halium/hybris-boot" remote="hal" revision="refs/heads/master" />
     <project path="halium/libhybris" name="Halium/libhybris" remote="hal" revision="refs/heads/halium-7.1" />
     <project path="halium/platform-api" name="ubports/platform-api" remote="hal" revision="xenial"  />
+
+    <project path="external/libarchive" name="Halium/halium_external_libarchive" revision="refs/heads/halium" />
 </manifest>
