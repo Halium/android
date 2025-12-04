@@ -18,4 +18,5 @@
   <project path="vendor/halium/platform-api" name="ubports/development/core/platform-api" revision="main" remote="gitlab" />
   <project path="vendor/halium/selinux_stubs" name="Halium/android_external_selinux_stubs" revision="halium-13.0" />
   <project path="vendor/halium/stub_netd" name="Halium/stub_netd" revision="halium-11.0" />
+  <project path="external/libarchive" name="Halium/halium_external_libarchive" revision="halium" />
 </manifest>
