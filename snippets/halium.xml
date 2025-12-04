@@ -18,4 +18,5 @@
   <project path="vendor/halium/platform-api" name="ubports/platform-api" revision="xenial_-_android9" />
   <project path="vendor/halium/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" revision="master" />
   <project path="vendor/halium/stub_netd" name="Halium/stub_netd" revision="halium-11.0" />
+  <project path="external/libarchive" name="Halium/halium_external_libarchive" revision="halium" />
 </manifest>
