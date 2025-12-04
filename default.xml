@@ -29,6 +29,7 @@
   <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" revision="aa4daae08ca5721fd5b7fa0b4a995126e71d570a" />
   <project path="external/gpg" name="ubports/android_external_gpg" revision="halium-9.0"  />
   <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" revision="master" />
+  <project path="external/libarchive" name="Halium/halium_external_libarchive" revision="halium" />
   <project path="halium/biometryd" name="ubports/development/core/biometryd" revision="main" remote="gitlab" />
   <project path="halium/fake_crypt" name="Halium/fake_crypt" revision="master" />
   <project path="halium/devices" name="Halium/halium-devices" revision="halium-9.0" />
