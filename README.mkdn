@@ -1,0 +1,18 @@
+Halium
+===========
+
+Getting started
+---------------
+
+To get started with Halium, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+
+To initialize your local repository using the Halium trees, use a command like this:
+```
+repo init -u https://github.com/Halium/android.git -b halium-14.0 --depth=1 --git-lfs
+```
+Then to sync up:
+```
+repo sync
+```
+Please see the [Halium Documentation](http://docs.halium.org/) for building instructions, by device.
