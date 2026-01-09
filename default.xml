@@ -137,7 +137,7 @@
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" remote="aosp" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" remote="aosp" />
-  <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" />
+  <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" revision="880b6833f9d5e131a8d9f92d6d0a836514fc711e" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" remote="aosp" />
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" remote="aosp" />
