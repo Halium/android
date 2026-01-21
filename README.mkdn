@@ -1,4 +1,4 @@
-LineageOS
+Halium
 ===========
 
 Getting started
@@ -15,7 +15,7 @@ Then to sync up:
 ```
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+Please see the [Halium Documentation](http://docs.halium.org/) for building instructions, by device.
 
 
 Submitting patches
