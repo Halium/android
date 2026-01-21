@@ -10,7 +10,7 @@
       <linkfile src="." dest="halium/devices" />
   </project>
   <project path="vendor/halium/audioflingerglue" name="Halium/audioflingerglue" revision="master" />
-  <project path="vendor/halium/biometryd" name="ubports/core/biometryd" revision="ubports/xenial_-_android9" remote="gitlab" />
+  <project path="vendor/halium/biometryd" name="ubports/development/core/biometryd" revision="ubports/xenial_-_android9" remote="gitlab" />
   <project path="vendor/halium/droidmedia" name="sailfishos/droidmedia" revision="refs/tags/0.20211101.0" />
   <project path="vendor/halium/hardware" name="Halium/android_vendor_halium_hardware" revision="halium-10.0" />
   <project path="vendor/halium/libhybris" name="Halium/libhybris" revision="halium-10.0" />
