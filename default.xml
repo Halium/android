@@ -1270,4 +1270,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/halium.xml" />
+  <include name="snippets/ubports.xml" />
 </manifest>
