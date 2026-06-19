@@ -6,15 +6,12 @@
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
-  <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" />
-  <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" />
-  <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" />
-  <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" />
   <project path="vendor/apn" name="LineageOS/android_vendor_apn" revision="main" />
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- Legacy AOSP additions -->
   <!-- Inline kernel build -->
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <!-- CodeLinaro additions -->
   <!-- Infrastructure -->
   <!-- Tools -->
