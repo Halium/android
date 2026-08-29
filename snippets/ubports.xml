@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <project path="bootable/recovery" name="JamiKettunen/halium_bootable_recovery" revision="halium-16.0" />
+  <project path="external/gpg" name="JamiKettunen/android_external_gpg" revision="halium-16.0" />
+  <project path="external/lvm2" name="Halium/lvm2" revision="halium-13.0" />
+</manifest>
